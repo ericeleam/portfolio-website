@@ -21,7 +21,7 @@ const TAB_DATA = [
         id: "education",
         content: (
             <ul>
-                <li>Temple University, Philadelphia PA</li>
+                <li>Temple University, Philadelphia, PA</li>
                 <li>Graduation Date: Spring 2026</li>
             </ul>
         ),
@@ -31,7 +31,7 @@ const TAB_DATA = [
         id: "experience",
         content: (
             <ul>
-                <li>Trader Joe's Crew Member: March 2024 - Present</li>
+                <li>Trader Joe&apos;s Crew Member: March 2024 - Present</li>
             </ul>
         ),
     },
@@ -56,8 +56,8 @@ const AboutSection = () => {
             </div>
             <div className="text-center mb-16">
                 <p className='text-3xl'>
-                    Hi! I'm Eric, a dynamic and engaged student thriving at Temple University.
-                    I find interest integrating code to solve the world's challenges,
+                    Hi! I&apos;m Eric, a dynamic and engaged student thriving at Temple University.
+                    I find interest in integrating code to solve the world&apos;s challenges,
                     and my pursuit of a Computer Science degree enables me to live with purpose.
                     I spend time playing soccer and chess, aspiring to constantly improve in both.
                     I hope to connect with you in building my community. Follow the link below to join my network!
@@ -76,7 +76,7 @@ const AboutSection = () => {
                     </TabButton>
                 </div>
                 <div className='mt-8'>
-                    {TAB_DATA.find((t) => t.id === tab).content}
+                    {TAB_DATA.find((t) => t.id === tab)?.content}
                 </div>
             </div>
         </section>
