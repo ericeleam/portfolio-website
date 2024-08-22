@@ -14,10 +14,10 @@ const HeroSection = () => {
       </StaggerText>
     </h1>
         <p className="px-5 text-5xl leading-relaxed">
-            Thank you for joining me today. 
-            I coded this site for a chance for you to learn more about me.
-            I hope you read more below,
-            and it inspires you to connect!
+        Thank you for taking the time to visit my site! 
+        I created this space to share more about myself with you. 
+        I hope as you explore, you'll find inspiration to reach out via email. 
+        Looking forward to connecting with you!
             </p>
           </center>
     </section>
