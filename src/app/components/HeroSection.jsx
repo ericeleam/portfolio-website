@@ -17,7 +17,7 @@ const HeroSection = () => {
             Thank you for joining me today. 
             I coded this site for a chance for you to learn more about me.
             I hope you read more below,
-            and it inspires you to send me an email!
+            and it inspires you to connect!
             </p>
           </center>
     </section>
