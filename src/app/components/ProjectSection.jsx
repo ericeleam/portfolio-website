@@ -6,7 +6,7 @@ import ProjectTag from './ProjectTag';
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
+    title: "React.js Portfolio Website",
     description: "Hand-coded website that showcases my coding projects",
     image: "/images/portfolioWebsite.png",
     tag: ["All", "Personal"],

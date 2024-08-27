@@ -16,7 +16,7 @@ const HeroSection = () => {
         <p className="px-5 text-5xl leading-relaxed">
         Thank you for taking the time to visit my site! 
         I created this space to share more about myself with you. 
-        I hope as you explore, you will find inspiration to reach out via email. 
+        I hope as you explore, you find inspiration to reach out via email. 
         Looking forward to connecting with you!
             </p>
           </center>
